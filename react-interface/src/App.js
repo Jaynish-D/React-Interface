@@ -1,18 +1,16 @@
-import { BiArchive } from 'react-icons/bi';
-import { IoBatteryHalfOutline, IoAddCircle } from 'react-icons/io5';
-
+import Search from './components/Search';
+import AddAppoinment from './components/AddAppoinment';
 function App() {
   return (
-    <div className="App container mx-auto mt-3">
-      <h1>
-        <IoBatteryHalfOutline />
-        Your Application <BiArchive />
-      </h1>
-      <br />
-      <h1>
-        <IoAddCircle />
-      </h1>
-    </div>
+    <>
+      <div>
+        <h1 className="text-center">This is React Interface</h1>
+      </div>
+      <div>
+        <AddAppoinment />
+        <Search />
+      </div>
+    </>
   );
 }
 

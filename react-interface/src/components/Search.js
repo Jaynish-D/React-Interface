@@ -1,4 +1,5 @@
 import { BiSearch, BiCaretDown, BiCheck } from 'react-icons/bi';
+import './search.css';
 const DropDown = () => {
   return (
     <div
